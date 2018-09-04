@@ -15,8 +15,8 @@ text-decoration: none;}
 
 a {text-decoration: none;}
 
-body {background: #14c6fe;
-    font-family: 'Ubuntu', sans-serif;
+body {  background: #98a2ff;
+        font-family: 'saira', sans-serif;
     
    
     }
@@ -25,49 +25,58 @@ body {background: #14c6fe;
 
 /*header*/
 
-header {background: #4e20fc;
-        width: 100%;
-        height: 3rem;
-       
-       
+header {
+    background: #fc4f20;
+    width: 100%;
+    height: 3rem;
         
 }
 
 
-.contenedormenu { width: 100%;
+.contenedormenu { 
+    width: 100%;
     padding: 0rem, 0rem; 
     background: #faf5fa; 
     position: absolute;
     top:0; left: 0;
-    height: 3rem;
+    height: 4rem;
+   
 }
 
 .contenedormenu img { height: 3rem;
                 padding: 0.5rem; 
-                resize: 
+    
                     }
-.btn-menu { width: 3rem;
-    height: 3rem;
-    font-size: 2rem;
+.contenedormenu .logoxamedis {
+    display: none;
+}
+.contenedormenu .logoxamediscerrado {
+    height: 4rem;
+    padding: 1rem;
+    
+}
+
+.btn-menu { height: 4rem;
+   padding: 0.5rem;
+
     text-align: center;
-    padding: 0.5rem;
+
     color: #602b7c;
     position: absolute; top: 0; right: 0; 
              
 }
-.fas fa-bars {color: #8ce6de;
-}
 
 
 
-.menu { background: #ffffff;
+
+.menu { background: #b7d997;
         width: 100%;
     height: 0;
     overflow: hidden;
    transition:height 0.5s;
 }
 
-.open {height: 192px;}
+.open {height: 12rem;}
 
 nav ul li { 
     width: 100%;    
@@ -83,23 +92,65 @@ nav ul li {
     }
 
 nav ul li a {
-    font-size: 1rem;
-    font-family: "ubuntu";
-    height: 3rem;
+    font-size: 0.8rem;
+    font-family: "saira";
+    height: 4rem;
     text-decoration: none;
     text-align: center;
     padding: 1rem;
-    color: #8ce6de;
-    background: #1b3060;
+    color: #602b7c;
+    background: #D9F2C2;
 }
 
 nav ul li a:hover {
-    color: #1b3060;
-    background: #14c6fe;
+    color: #ffffff;
+    background: #80c241;
 }
 
 
+/*INICIO*/
 
+.inicio{
+    width: 100%;
+    background: #fff;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    
+}
+.inicio img {
+    width: 70%;
+    margin: 10rem auto 5rem;
+  
+   
+    
+}
+p {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #120C11
+    
+    
+}
+.inicio .boton {
+    margin: 6rem auto; 
+    padding: 0.8rem 2rem;
+    background: #80C241;
+    border-radius: 12px;
+    color: #fff;
+    
+    
+}
+.inicio .boton a {
+    font-size: 1rem;
+    color: #fff;
+}
 
 /* R E S P O N S I V E */
 /* R E S P O N S I V E */
@@ -121,34 +172,46 @@ nav ul li a:hover {
   padding: 0; 
 }
     
-    /* NUEVO */
+    /* header */
    
     
 .contenedormenu { width: 100%;
-    height: 3rem;
+    height: 4rem;
     display: flex;
 	flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    background: #D9F2C2;
     
     
 
 }
 
-.logojazztival  {height: 3rem; 
+.logoxamedis  {height: 4rem; 
                 width: 50%;
                 padding: 0rem 1rem;
                 align-content: center;
 }
 
-.logojazztival img { width: auto;
-                height: 3rem;
+.contenedormenu img { width: auto;
+                height: 4rem;
+            padding: 0rem;
                   }
+.contenedormenu .logoxamediscerrado {
+    display: none;
+}
+ .contenedormenu .logoxamedis {
+        display: block
+    }
     
 .btn-menu {display: none;}
-.menu {background: #1b3060;
-        height: 48px;
+.menu {background: #D9F2C2;
+        height: 4rem;
+    
     transition: height 0s;
+    width: 50%;
     }
     
     
@@ -157,16 +220,48 @@ nav ul { display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
 	align-items: center;
-    
-    height: 3rem;
-    background: #1b3060;
+    height: 4rem;
+    background: #D9F2C2;
 	}
     
-nav ul li { width: 25%;
-    font-size: 0.5rem;
-    border-left: 3px solid #8ce6de;
+.menu nav ul li  { width: 25%;
+
+    
+  
     
     }
     
     
-/*HASTA ACA*/
+/*inicio*/
+    
+    
+    
+    .inicio {
+        
+        background: #fff;
+        height: 900px;
+    }
+    
+    
+    
+    /*gettinfstarted*/
+    
+    
+    
+    .gettingstarted {
+        
+        background: #D9F2C2;
+        height: 900px;
+    }
+    
+    
+    
+    /*seccion1*/
+    
+    
+    
+    .seccion1 {
+        
+        background: #fff;
+        height: 900px;
+    }

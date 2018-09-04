@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Saira:300,400,700');
+
+
+
+/*reset*/
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+li{list-style-type: none;
+text-decoration: none;}
+
+a {text-decoration: none;
+    color: inherit;}
+
+body {  background: #9da5ed;
+        font-family: 'saira', sans-serif;
+    
+   
+    }
+
+
+/*header*/
+
+
+.contenedormenu {
+        height: 6rem;
+        background: #80C241;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;    
+        align-content: center;
+        
+}
+
+.contenedormenu img{
+    height: 2rem;
+    margin: 1rem 0rem 0 2rem;
+    width: 50%;
+    
+    
+}
+.menu {
+    height: 6rem;
+    width: 50%;
+    
+   
+}
+.menu nav ul {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    padding: 3rem 0 0 0;
+
+    
+}
+.menu nav ul li {
+    width: 25%;
+    border border-radius: 12px;
+    font-size: 0.8rem;
+    color: #fff;
+    margin 0.2rem; 
+    background: #80C241;
+  
+ 
+}
+.menu nav ul li a{
+    color: #fff;
+}
+.menu nav ul li a:hover {
+    border-bottom: 3px solid #602B7C;
+    color: #602B7C;
+    
+    
+}
+
+
+/*inicio*/
+
+.inicio {
+    height: 900px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 5px #602B7C;
+    
+}
+.inicio img {
+    margin: 10rem auto 4rem;
+    width: 60%;
+    
+    
+}
+.inicio p {
+    width: 60%;
+    margin: 4rem auto;
+    font-size: 1rem;
+    color: #120C11;
+    text-align: center;
+}
+
+.inicio .boton {
+    text-align: center;
+    background: #80C241;
+    color: #fff;
+    width: 14rem;
+    margin: 2rem auto 4rem;
+    padding: 1rem 4rem;
+    border-radius: 12px;
+}
+
+.inicio .boton:hover {
+    background: #B7D997;
+    color: #602B7C;
+    
+}
+
+/*getting started*/
+
+
+.gettingstarted {
+    height: 900px;
+    margin: auto;
+    padding: 6rem;
+    background: #fff;
+    background-image: url("../img/fondo.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+h4 {
+    color: #120C11;
+    font-family: "saira";
+    font-weight: 400;
+    padding: 1rem 0 0 0;
+    font-size: 1.2rem;
+    
+}
+h1 {
+    color: #602B7C;
+    font-family: "saira";
+    font-size: 3rem;
+    font-weight:700;
+    padding: 0.7rem 0 2rem 0;
+    
+        
+}
+
+.gettingstarted p{
+    width: 50%;
+    line-height: 2rem;
+    padding: rem 0;
+    
+}
+
+
+/*normal status*/
+.boton {
+    background-image:url("../img/botton-normal.svg");
+    height:62px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin: 5rem 0rem;
+}
+.boton a{
+    text-align: center;
+    color: #fff; 
+    padding: 31px 95px ;
+}
+
+
+/*hover status*/
+
+.boton:hover {
+    background-image:url("../img/botton-hover.svg");
+    height:62px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: #602B7C; 
+}
+.boton a:hover{
+    text-align: center;
+    color: #602B7C; 
+    display: block;
+}
+
+
+.feedback {
+    padding: 5rem 0 0 ;
+}
+
+h6 {
+    font-weight: 100;
+    color: #999699;
+}
+
+a {
+    color: #80C241;
+}
+
+/*about us*/
+
+.aboutus {
+   height: 900px;
+    margin: auto;
+    padding: 0rem;
+    background: #fff;
+    background-image: url("../img/fondo2.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.logo-social {
+    width: 2rem
+}
+.titulo-seccion {
+    text-align: right;
+    padding: 6rem 6rem 2rem;
+    background: #602B7C;
+}
+
+h2 {
+    color: #fff;
+    font-family: "saira";
+    font-size: 2.3rem;
+    font-weight:700;
+    padding: 0rem 0rem 0rem 0;
+}
+h3 {
+    color: #fff;
+    font-family: "saira";
+    font-size: 1.2rem;
+    font-weight:400;
+    padding: 0.7rem 0 2rem 0;
+}
+
+section {
+    
+    padding: 2rem 6rem;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+    
+}
+article {
+    width: 40%;
+    padding: 2rem;
+    
+}
